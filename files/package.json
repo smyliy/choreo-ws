@@ -1,0 +1,21 @@
+{
+  "name": "okko-node",
+  "version": "1.0.0",
+  "description": "okko-hello-world",
+  "main": "index.js",
+  "author": "okka",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "http-proxy": "latest",
+    "ws": "^8.14.2"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+
+}
